@@ -1,33 +1,82 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#080b14"><title>HP SRC LEAKER — Gaming App Hub</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#080b14">
+<title>HP SRC LEAKER</title>
 <style>
-:root{--bg:#080b14;--panel:#101728;--panel2:#121d32;--line:#263550;--text:#f1f6ff;--muted:#9aa9c3;--cyan:#20e8ff;--purple:#9d5cff;--pink:#ff4fd8;--green:#7dffb2}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 15% 0%,#18244a 0,transparent 36%),radial-gradient(ellipse at 95% 18%,#301344 0,transparent 30%),var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}a{color:inherit;text-decoration:none}.wrap{max-width:1120px;margin:auto;padding:0 18px}.top{position:sticky;top:0;z-index:10;background:#080b14eF;border-bottom:1px solid #263550;backdrop-filter:blur(16px)}.nav{height:70px;display:flex;align-items:center;justify-content:space-between;gap:14px}.brand{display:flex;align-items:center;gap:10px;font-weight:900;letter-spacing:.5px}.logo{width:42px;height:42px;display:grid;place-items:center;border-radius:13px;background:linear-gradient(135deg,var(--cyan),var(--purple));color:#07101b;font-weight:1000;box-shadow:0 0 24px #20e8ff45}.brand small{display:block;color:var(--muted);font-size:10px;letter-spacing:2px}.navlinks{display:flex;gap:18px;color:#c2cde0;font-size:14px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:11px 16px;border:1px solid #20e8ff88;border-radius:12px;background:linear-gradient(110deg,#20e8ff1f,#9d5cff25);color:white;font-weight:800;cursor:pointer;transition:.2s}.btn:hover{transform:translateY(-2px);box-shadow:0 0 24px #20e8ff28}.btn.primary{background:linear-gradient(100deg,var(--cyan),#8b7bff);border:0;color:#07101b}.hero{padding:64px 0 38px;text-align:center}.eyebrow{display:inline-flex;padding:7px 12px;border:1px solid #9d5cff66;border-radius:999px;background:#9d5cff14;color:#d9c2ff;font-size:12px;font-weight:800;letter-spacing:1.5px}.hero h1{font-size:clamp(36px,7vw,70px);line-height:1.02;letter-spacing:-2px;margin:22px auto 14px;max-width:850px}.glow{background:linear-gradient(90deg,var(--cyan),#b2a1ff,var(--pink));background-clip:text;-webkit-background-clip:text;color:transparent;text-shadow:0 0 40px #20e8ff13}.hero p{max-width:650px;margin:0 auto 24px;color:var(--muted);line-height:1.75}.actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;max-width:650px;margin:34px auto 0}.stat{padding:15px;border:1px solid var(--line);background:#101728b8;border-radius:15px}.stat strong{display:block;font-size:20px;color:var(--cyan)}.stat span{font-size:12px;color:var(--muted)}.section{padding:28px 0 40px}.sectionhead{display:flex;justify-content:space-between;align-items:end;gap:15px;margin-bottom:20px}.sectionhead h2{margin:0;font-size:26px}.sectionhead p{margin:6px 0 0;color:var(--muted);font-size:14px}.searchbox{display:flex;align-items:center;gap:10px;padding:13px 15px;border:1px solid var(--line);border-radius:14px;background:var(--panel);margin-bottom:16px}.searchbox input{width:100%;background:transparent;border:0;outline:0;color:var(--text);font-size:15px}.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}.filter{border:1px solid var(--line);border-radius:999px;padding:9px 14px;background:#101728;color:#bdc9de;cursor:pointer}.filter.active,.filter:hover{border-color:var(--cyan);color:var(--cyan);background:#20e8ff12}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.app{border:1px solid var(--line);border-radius:18px;padding:17px;background:linear-gradient(155deg,#141e33,#0d1321);transition:.2s;min-width:0}.app:hover{transform:translateY(-4px);border-color:#20e8ff88;box-shadow:0 12px 35px #0005,0 0 22px #20e8ff0c}.app-top{display:flex;align-items:center;gap:12px}.appicon{width:54px;height:54px;border-radius:15px;display:grid;place-items:center;font-size:25px;background:linear-gradient(135deg,#20e8ff26,#9d5cff36);border:1px solid #ffffff13}.app h3{font-size:16px;margin:0 0 4px}.tag{font-size:11px;color:var(--cyan);font-weight:800;letter-spacing:.8px}.app p{color:var(--muted);font-size:13px;line-height:1.6;min-height:42px}.app-bottom{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:15px}.version{font-size:11px;color:#8e9bb2}.download{padding:9px 12px;font-size:12px}.empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:30px;border:1px dashed var(--line);border-radius:16px}.banner{border:1px solid #9d5cff66;border-radius:20px;padding:26px;background:linear-gradient(110deg,#20e8ff0c,#9d5cff18);display:flex;align-items:center;justify-content:space-between;gap:18px}.banner h2{margin:0 0 8px}.banner p{margin:0;color:var(--muted);line-height:1.6}.footer{margin-top:26px;border-top:1px solid var(--line);padding:25px 0 34px;color:var(--muted);font-size:12px}.footrow{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}.notice{font-size:12px;color:#8392aa;line-height:1.7;margin-top:14px}
-@media(max-width:760px){.navlinks{display:none}.hero{padding-top:48px}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.sectionhead{align-items:start;flex-direction:column}.banner{align-items:flex-start;flex-direction:column}}
-@media(max-width:480px){.wrap{padding:0 13px}.grid{grid-template-columns:1fr}.hero h1{letter-spacing:-1px}.stats{gap:7px}.stat{padding:12px 6px}.stat strong{font-size:17px}.stat span{font-size:10px}.app p{min-height:0}}
-</style></head>
+:root{--bg:#080b14;--card:#101728;--line:#263550;--text:#f1f6ff;--muted:#9aa9c3;--cyan:#20e8ff;--purple:#9d5cff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,system-ui,sans-serif}a{color:inherit;text-decoration:none}.wrap{width:min(1000px,92%);margin:auto}
+header{padding:18px 0;border-bottom:1px solid var(--line);background:#080b14}.brand{font-weight:900;letter-spacing:1px}.brand span{color:var(--cyan)}
+.hero{text-align:center;padding:55px 0 35px}.hero h1{font-size:clamp(34px,7vw,60px);margin:10px 0}.hero h1 span{color:var(--cyan)}.hero p{color:var(--muted)}.btn{display:inline-block;padding:10px 15px;border-radius:10px;background:var(--cyan);color:#07101b;font-weight:bold}
+section{padding:25px 0}.head{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}.head h2{margin:0}.search{width:100%;padding:13px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--text);margin:15px 0}.filters{display:flex;gap:8px;margin-bottom:16px}.filter{padding:9px 13px;border:1px solid var(--line);border-radius:20px;background:var(--card);color:var(--text)}.filter.active{border-color:var(--cyan);color:var(--cyan)}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.app{padding:16px;border:1px solid var(--line);border-radius:14px;background:var(--card)}.app h3{margin:8px 0 14px;font-size:17px}.icon{font-size:28px}.row{display:flex;justify-content:space-between;align-items:center;gap:10px}.version{font-size:12px;color:var(--muted)}.empty{grid-column:1/-1;text-align:center;padding:25px;color:var(--muted);border:1px dashed var(--line);border-radius:12px}footer{margin-top:35px;padding:22px 0;border-top:1px solid var(--line);color:var(--muted);font-size:12px}
+@media(max-width:700px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:460px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
 <body>
-<header class="top"><div class="wrap nav"><a class="brand" href="#home"><span class="logo">HP</span><span>HP SRC LEAKER<small>GAMING • APPS • RESOURCES</small></span></a><nav class="navlinks"><a href="#home">Home</a><a href="#apps">Apps</a><a href="#community">Community</a></nav><a class="btn" id="navTelegram" href="https://t.me/" target="_blank" rel="noopener">✈ Join Telegram</a></div></header>
-<main id="home"><section class="hero wrap"><span class="eyebrow">⚡ YOUR GAMING RESOURCE HUB</span><h1>LEVEL UP YOUR<br><span class="glow">GAMING SETUP</span></h1><p>Discover useful apps, creator tools, gaming resources and source-code projects in one place. Browse the collection and open the links you choose.</p><div class="actions"><a class="btn primary" href="#apps">🚀 Explore Apps</a><a class="btn" href="#community">✈ Community</a></div><div class="stats"><div class="stat"><strong id="appCount">6</strong><span>RESOURCES</span></div><div class="stat"><strong>FREE</strong><span>TO BROWSE</span></div><div class="stat"><strong>24/7</strong><span>WEB ACCESS*</span></div></div></section>
-<section class="section wrap" id="apps"><div class="sectionhead"><div><h2>🧩 Latest Releases</h2><p>Search and filter the resources below.</p></div><span class="tag">HP COLLECTION / 01</span></div><label class="searchbox"><span>⌕</span><input id="search" type="search" placeholder="Search apps, tools, source code..." aria-label="Search apps"></label><div class="filters" id="filters"><button class="filter active" data-cat="All">All Resources</button><button class="filter" data-cat="Gaming">🎮 Gaming</button><button class="filter" data-cat="Tools">🧰 Tools</button><button class="filter" data-cat="Source Code">💻 Source Code</button><button class="filter" data-cat="Editors">🎬 Editors</button></div><div class="grid" id="appGrid" aria-live="polite"></div><p class="notice">*The website can be hosted on GitHub Pages. Resource availability depends on the external links you add. Only share files you own or have permission to distribute.</p></section>
-<section class="section wrap" id="community"><div class="banner"><div><h2>Join the HP Community ✨</h2><p>Follow your community link for announcements and new releases.</p></div><a class="btn primary" id="telegramButton" href="https://t.me/" target="_blank" rel="noopener">Join Telegram ↗</a></div></section></main>
-<footer class="footer"><div class="wrap footrow"><span><strong style="color:#eaf5ff">HP SRC LEAKER</strong> · Built for the gaming community</span><span>© <span id="year"></span> HP SRC LEAKER</span></div><div class="wrap notice">Community resource hub. Not affiliated with Garena or any game publisher. Verify downloads and permissions before installing.</div></footer>
+<header><div class="wrap brand">HP <span>SRC LEAKER</span></div></header>
+<main>
+<section class="hero wrap"><h1>HP SRC <span>LEAKER</span></h1><p>Apps and source-code releases.</p><a class="btn" href="#apps">View Releases</a></section>
+<section class="wrap" id="apps">
+  <div class="head"><h2>Latest Releases</h2><span id="count">0 Releases</span></div>
+  <input class="search" id="search" type="search" placeholder="Search apps or source code..." aria-label="Search releases">
+  <div class="filters" id="filters">
+    <button class="filter active" data-cat="All Categories">All Categories</button>
+    <button class="filter" data-cat="Source">Source</button>
+  </div>
+  <div class="grid" id="appGrid"></div>
+</section>
+</main>
+<footer><div class="wrap">© <span id="year"></span> HP SRC LEAKER</div></footer>
 <script>
-/* EDIT THIS LIST: replace each url with your real app/source link. */
+// ADD YOUR RELEASES HERE. No example apps or links are pre-added.
 const resources = [
- {name:"Free Fire Tips & Guides",category:"Gaming",icon:"🎮",description:"Gameplay tips, settings explanations and beginner-friendly guides.",version:"GUIDE",url:"https://ff.garena.com/"},
- {name:"Creator Tools",category:"Tools",icon:"🧰",description:"A place for your approved creator utilities and helpful resources.",version:"TOOLS",url:"https://github.com/"},
- {name:"Open Source Project",category:"Source Code",icon:"💻",description:"Share a source-code repository you own or have permission to publish.",version:"SOURCE",url:"https://github.com/"},
- {name:"Video Editor",category:"Editors",icon:"🎬",description:"Add your chosen official video-editing app or project link here.",version:"APP",url:"https://play.google.com/store"},
- {name:"Gaming Utilities",category:"Gaming",icon:"⚡",description:"Useful, legitimate utilities for your gaming setup.",version:"UTILITY",url:"https://github.com/"},
- {name:"Developer Resources",category:"Source Code",icon:"🧩",description:"Documentation and development resources for your community.",version:"DOCS",url:"https://developer.android.com/"}
+  // { name: "My App", category: "Source", icon: "💻", version: "v1.0", url: "YOUR_LINK_HERE" },
 ];
-let activeCategory="All";
-const grid=document.getElementById('appGrid');
-function render(){const term=document.getElementById('search').value.trim().toLowerCase();const found=resources.filter(x=>(activeCategory==='All'||x.category===activeCategory)&&[x.name,x.category,x.description].join(' ').toLowerCase().includes(term));document.getElementById('appCount').textContent=resources.length;grid.innerHTML='';if(!found.length){grid.innerHTML='<div class="empty">No resources found. Try another search.</div>';return;}found.forEach(x=>{const card=document.createElement('article');card.className='app';const top=document.createElement('div');top.className='app-top';const icon=document.createElement('div');icon.className='appicon';icon.textContent=x.icon;const info=document.createElement('div');const h=document.createElement('h3');h.textContent=x.name;const tag=document.createElement('span');tag.className='tag';tag.textContent=x.category.toUpperCase();info.append(h,tag);top.append(icon,info);const p=document.createElement('p');p.textContent=x.description;const bottom=document.createElement('div');bottom.className='app-bottom';const version=document.createElement('span');version.className='version';version.textContent=x.version;const a=document.createElement('a');a.className='btn download';a.textContent='Open Link ↗';a.href=x.url;a.target='_blank';a.rel='noopener noreferrer';bottom.append(version,a);card.append(top,p,bottom);grid.append(card);});}
-document.getElementById('search').addEventListener('input',render);document.getElementById('filters').addEventListener('click',e=>{const b=e.target.closest('button[data-cat]');if(!b)return;activeCategory=b.dataset.cat;document.querySelectorAll('.filter').forEach(x=>x.classList.toggle('active',x===b));render();});document.getElementById('year').textContent=new Date().getFullYear();
-/* Replace this with your Telegram invite/channel URL. */
-const TELEGRAM_LINK='https://t.me/';document.getElementById('navTelegram').href=TELEGRAM_LINK;document.getElementById('telegramButton').href=TELEGRAM_LINK;render();
-</script></body></html>
+
+let activeCategory = "All Categories";
+const grid = document.getElementById("appGrid");
+const search = document.getElementById("search");
+
+function renderApps() {
+  const word = search.value.trim().toLowerCase();
+  const list = resources.filter(app => {
+    const categoryMatch = activeCategory === "All Categories" || app.category === activeCategory;
+    const searchMatch = app.name.toLowerCase().includes(word);
+    return categoryMatch && searchMatch;
+  });
+
+  document.getElementById("count").textContent = resources.length + " Releases";
+  grid.innerHTML = "";
+
+  if (list.length === 0) {
+    grid.innerHTML = '<div class="empty">No releases added yet.</div>';
+    return;
+  }
+
+  list.forEach(app => {
+    const card = document.createElement("article");
+    card.className = "app";
+    card.innerHTML = `<div class="icon">${app.icon || "📦"}</div><h3></h3><div class="row"><span class="version"></span><a class="btn" target="_blank" rel="noopener">Open</a></div>`;
+    card.querySelector("h3").textContent = app.name;
+    card.querySelector(".version").textContent = app.version || "";
+    card.querySelector("a").href = app.url;
+    grid.appendChild(card);
+  });
+}
+
+document.getElementById("filters").addEventListener("click", event => {
+  const button = event.target.closest("button[data-cat]");
+  if (!button) return;
+  activeCategory = button.dataset.cat;
+  document.querySelectorAll(".filter").forEach(item => item.classList.toggle("active", item === button));
+  renderApps();
+});
+search.addEventListener("input", renderApps);
+document.getElementById("year").textContent = new Date().getFullYear();
+renderApps();
+</script>
+</body>
+</html>

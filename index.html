@@ -30,9 +30,10 @@ section{padding:25px 0}.head{display:flex;justify-content:space-between;align-it
   <div class="head"><h2>Latest Releases</h2><span id="count">0 Releases</span></div>
   <input class="search" id="search" type="search" placeholder="Search apps or source code..." aria-label="Search releases">
   <div class="filters" id="filters">
-    <button class="filter active" data-cat="All Categories">All Categories</button>
-    <button class="filter" data-cat="Source">Source</button>
-  </div>
+  <button class="filter active" data-cat="All Categories">All Categories</button>
+  <button class="filter" data-cat="Apps">Apps</button>
+  <button class="filter" data-cat="Source">Source</button>
+</div>
   <div class="grid" id="appGrid"></div>
 </section>
 </main>
@@ -42,7 +43,7 @@ section{padding:25px 0}.head{display:flex;justify-content:space-between;align-it
 const resources = [
 //  {
 //  name: "MT MANAGER PRO",
-//  category: "Source",
+  category: "Apps",
 //  icon: "MT",
 //  version: "all versions",
 //  url: "YO "

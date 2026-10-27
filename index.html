@@ -79,7 +79,7 @@ function renderApps() {
   list.forEach(app => {
     const card = document.createElement("article");
     card.className = "app";
-    card.innerHTML = `<div class="icon">${app.icon || "📦"}</div><h3></h3><div class="row"><span class="version"></span><a class="btn" target="_blank" rel="noopener">Open</a></div>`;
+    card.innerHTML = `<div class="icon">${app.icon && app.icon.toLowerCase().endsWith(".png") ? `<img src="./${app.icon}" alt="${app.name}" style="width:48px;height:48px;object-fit:contain;">` : (app.icon || "📦")}</div><h3></h3><div class="row"><span class="version"></span><a class="btn" target="_blank" rel="noopener">Open</a></div>`;
     card.querySelector("h3").textContent = app.name;
     card.querySelector(".version").textContent = app.version || "";
     card.querySelector("a").href = app.url;
